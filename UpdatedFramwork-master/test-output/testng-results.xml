@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-05T14:28:52Z" name="Suite" finished-at="2020-04-05T14:30:20Z" duration-ms="88613">
+    <groups>
+    </groups>
+    <test started-at="2020-04-05T14:28:52Z" name="Docker chrome test" finished-at="2020-04-05T14:29:22Z" duration-ms="30556">
+      <class name="com.pa.qa.testcases.ChromeTest">
+        <test-method signature="chromeTest()[pri:0, instance:com.pa.qa.testcases.ChromeTest@5ef60048]" started-at="2020-04-05T19:58:52Z" name="chromeTest" finished-at="2020-04-05T19:59:22Z" duration-ms="30461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+      </class> <!-- com.pa.qa.testcases.ChromeTest -->
+    </test> <!-- Docker chrome test -->
+    <test started-at="2020-04-05T14:29:23Z" name="Docker firefox test" finished-at="2020-04-05T14:30:20Z" duration-ms="57116">
+      <class name="com.pa.qa.testcases.FirefoxTest">
+        <test-method signature="chromeTest()[pri:0, instance:com.pa.qa.testcases.FirefoxTest@b62fe6d]" started-at="2020-04-05T19:59:23Z" name="chromeTest" finished-at="2020-04-05T20:00:20Z" duration-ms="57112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+      </class> <!-- com.pa.qa.testcases.FirefoxTest -->
+    </test> <!-- Docker firefox test -->
+  </suite> <!-- Suite -->
+</testng-results>

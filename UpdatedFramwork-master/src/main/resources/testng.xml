@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" parallel="none">
+	<test name="Docker chrome test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.pa.qa.testcases.HomePageTest" />
+		</classes>
+	</test>
+
+	<test name="Docker firefox test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.pa.qa.testcases.LogInToAppTest" />
+		</classes>
+	</test>
+</suite>
